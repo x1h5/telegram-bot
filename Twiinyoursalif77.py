@@ -14,8 +14,8 @@ filters
 
 from openai import OpenAI
 
-TOKEN="PUT_TELEGRAM_TOKEN"
-OPENAI_KEY="PUT_OPENAI_KEY"
+TOKEN = os.getenv("TOKEN")
+OPENAI_KEY = os.getenv("OPENAI_KEY")
 
 OWNER_ID=7395844524
 
